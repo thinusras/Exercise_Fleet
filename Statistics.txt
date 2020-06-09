@@ -1,0 +1,30 @@
+EMPTY: M1=2; M2=0; M3=0;
+FULL: M1=1; M2=1; M3=0;
+MOST FILLED: M1=1,0; M2=1,0; M3=1,1;
+
+WARNINGS 
+
+Warning: Unexpected line format (hostID not an int): 
+87124hsn;lrck`3kjjknhjk
+Action: Line excluded from counts.
+
+Warning: amount of slot states provided different to the given amount of slots (N)
+10,M1,4,0,0,0,0,0
+Action: Adjusting N to reflect amount of slot states.
+
+Warning: Duplicate host ID in line:
+10,M2,4,0,0,1,0
+No action taken. Line counted as normal.
+
+Warning: Non binary value of slot state: 
+20,M1,4,10,0,0,1
+Action: Line excluded from counts.
+
+Warning: Duplicate host ID in line:
+81,M3,7,1,0,1,1,1,1,1
+No action taken. Line counted as normal.
+
+Warning: Non binary value of slot state: 
+99,M3,15,0,0,1,,1,1,1,1,0,0,1,1,1,1,1
+Action: Line excluded from counts.
+
